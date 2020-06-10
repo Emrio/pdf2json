@@ -51,7 +51,6 @@
   "bundleDependencies": [
     "xmldom",
     "lodash",
-    "optimist",
     "async"
   ],
   "directories": {
