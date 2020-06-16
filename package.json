@@ -16,10 +16,10 @@
     "pdf.js fork"
   ],
   "author": "Diego Correa T. <sigma.octantis@gmail.com> (http://www.labormedia.cl)",
-  "homepage": "https://github.com/Ikkuna/pdf2json",
+  "homepage": "https://github.com/TheEmrio/pdf2json",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ikkuna/pdf2json.git"
+    "url": "git+https://github.com/TheEmrio/pdf2json.git"
   },
   "main": "./pdfparser.js",
   "scripts": {
@@ -40,14 +40,8 @@
   ],
   "contributors": [],
   "bugs": {
-    "url": "http://github.com/Ikkuna/pdf2json/issues"
+    "url": "http://github.com/TheEmrio/pdf2json/issues"
   },
-  "licenses": [
-    {
-      "type": "Apache v2",
-      "url": "https://github.com/Ikkuna/pdf2json/blob/master/license.txt"
-    }
-  ],
   "bundleDependencies": [
     "xmldom",
     "lodash",
@@ -57,5 +51,8 @@
     "lib": "lib",
     "test": "test"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
 }
