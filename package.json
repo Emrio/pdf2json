@@ -1,5 +1,5 @@
 {
-  "name": "@theemrio/j-pdfjson",
+  "name": "@emrio/j-pdfjson",
   "version": "1.1.14",
   "description": "A PDF file parser that converts PDF binaries to text based JSON, powered by porting a fork of PDF.JS to Node.js",
   "keywords": [
@@ -16,10 +16,10 @@
     "pdf.js fork"
   ],
   "author": "Diego Correa T. <sigma.octantis@gmail.com> (http://www.labormedia.cl)",
-  "homepage": "https://github.com/TheEmrio/pdf2json",
+  "homepage": "https://github.com/Emrio/pdf2json",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TheEmrio/pdf2json.git"
+    "url": "git+https://github.com/Emrio/pdf2json.git"
   },
   "main": "./pdfparser.js",
   "scripts": {
@@ -42,7 +42,7 @@
   ],
   "contributors": [],
   "bugs": {
-    "url": "http://github.com/TheEmrio/pdf2json/issues"
+    "url": "http://github.com/Emrio/pdf2json/issues"
   },
   "bundleDependencies": [
     "xmldom",
